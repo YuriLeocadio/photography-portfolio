@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/styles.css">
+    <script src="https://kit.fontawesome.com/a290182793.js"></script>
+    <title>Portfólio</title>
+</head>
+
+<body>
+    <div class="container">
+        <header class="header">
+            <nav class="navbar">
+                <ul class="navbar-items">
+                    <li>
+                        <h2 class="name">
+                            Maria Souza
+                        </h2>
+                    </li>
+                    <li>
+                        <a href="#sobre" class="links">Sobre Mim</a>
+                        <a href="#galeria" class="links">Galeria</a>
+                        <a href="#contato" class="links">Contato</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+
+        <main class="main">
+            <section class="about-section" id="sobre">
+                <h1> Portfólio de Fotografia de Maria Souza</h1>
+                <p> Maria Souza é uma fotógrafa premiada, especializada em
+                    fotografia de natureza e retratos. Sua paixão é capturar momentos únicos e
+                    transformar imagens em obras de arte.</p>
+            </section>
+
+            <section class="gallery-section" id="galeria">
+                <div class="gallery start">
+                    <div class="images">
+                        <div class="img-border">
+                            <img src="https://img.freepik.com/fotos-premium/um-esquilo-sentado-no-ramo-de-uma-arvore_1048944-30371835.jpg?t=st=1725763154~exp=1725763754~hmac=6a67d91520fb66401bdae51c62ea1d9a23cba92d2857b15e457db674f896b7d2"
+                                alt="Foto de um coala">
+                        </div>
+                        <img src="https://img.freepik.com/fotos-premium/close-up-de-um-esquilo-em-um-poste-de-madeira_1048944-30370286.jpg?t=st=1725763154~exp=1725763754~hmac=2585d0438d4df0d3a7aa6661cd8bbab0e22c4d5566893ee417049598bbe2819b"
+                            alt="Foto de um esquilo">
+                        <img src="https://img.freepik.com/fotos-gratis/bela-paisagem-da-mae-natureza_23-2148992406.jpg?t=st=1725763154~exp=1725763754~hmac=5481bec98990b773a90d5c39601134a08b9da9787a6720542ffd489cd1b93e1b"
+                            alt="Foto de uma paisagem">
+                    </div>
+                    <h3>Natureza</h3>
+                </div>
+
+                <div class="gallery end">
+                    <div class="images">
+                        <img src="https://img.freepik.com/fotos-gratis/ceu-estrelado-sobre-a-cidade_23-2151642691.jpg?size=626&ext=jpg&ga=GA1.1.2115334401.1724982517&semt=ais_hybrid"
+                            alt="Casa no lago à noite">
+                        <img src="https://img.freepik.com/fotos-gratis/ceu-estrelado-sobre-a-cidade_23-2151642595.jpg?size=626&ext=jpg&ga=GA1.1.2115334401.1724982517&semt=ais_hybrid"
+                            alt="Paisagem de uma montanha à noite">
+                        <div class="img-border">
+                            <img src="https://img.freepik.com/fotos-gratis/arte-digital-ceu-noturno-cosmico-escuro_23-2151700779.jpg?size=626&ext=jpg&ga=GA1.1.2115334401.1724982517&semt=ais_hybrid"
+                                alt="Foto de uma praia à noite">
+                        </div>
+                    </div>
+                    <h3>Paisagens à noite</h3>
+                </div>
+
+                <div class="gallery start">
+                    <div class="images">
+                        <div class="img-border">
+                            <img src="https://img.freepik.com/fotos-gratis/lindo-amanhecer-na-praia-sob-um-ceu-azul_181624-26939.jpg?size=626&ext=jpg&ga=GA1.1.2115334401.1724982517&semt=ais_hybrid"
+                                alt="Amanhecer na praia">
+                        </div>
+                        <img src="https://img.freepik.com/fotos-gratis/por-do-sol-no-lago-de-annone_181624-8381.jpg?size=626&ext=jpg&ga=GA1.1.2115334401.1724982517&semt=ais_hybrid"
+                            alt="Amanhecer atrás de uma montanha">
+                        <img src="https://img.freepik.com/fotos-gratis/bela-paisagem-do-ceu-durante-o-dia_23-2149265548.jpg?size=626&ext=jpg&ga=GA1.1.2115334401.1724982517&semt=ais_hybrid"
+                            alt="Amanhecer em uma montanha">
+                    </div>
+                    <h3>Amanhecer</h3>
+                </div>
+            </section>
+
+            <section class="contact-section" id="contato">
+                <div class="contact-container">
+                    <div class="contact">
+                        <h4>Interessado em contratar ou saber mais?<br>Envie uma mensagem
+                            através do formulário abaixo.
+                        </h4>
+                    </div>
+                    <form>
+                        <div class="contact-inputs">
+                            <div class="divs-input">
+                                <label for="name">Nome <span>(mínimo 2 caracteres)</span></label>
+                                <input type="text" placeholder="Insira seu sobrenome" id="last-name" required
+                                    minlength="2">
+                            </div>
+
+                            <div class="divs-input">
+                                <label for="email">Email <span>(digite um email válido)</span></label>
+                                <input type="email" placeholder="Insira seu e-mail" id="email" required>
+                            </div>
+
+                            <div class="divs-input">
+                                <label for="textarea" class="label-textarea">Mensagem</label>
+                                <textarea id="textarea" required></textarea>
+                            </div>
+                            
+                            <div class="contact-btn">
+                                <button type="submit" class="btn">Enviar</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </section>
+        </main>
+
+        <footer class="footer" id="contato">
+            <div class="footer-icons">
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-linkedin"></i>
+                <i class="fab fa-facebook-f"></i>
+            </div>
+            <p>Termos e Condições - Política de Privacidade ©2024 Todos os direitos reservados por <span>Maria
+                    Souza</span></p>
+            <p>Design do site por <span>Yuri Leocadio</span></p>
+        </footer>
+    </div>
+</body>
+
+</html>
